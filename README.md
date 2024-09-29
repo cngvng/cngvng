@@ -1,7 +1,7 @@
 ### Hi there 👋, **I'm Tuan-Cuong Vuong (Computer Science)** 
 
 <br />
-<img src='./my-self.jpeg' width="100%">
+<img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/451803663_1112213653210076_5729734159510173785_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xfEW_8PBQB0Q7kNvgFikSS5&_nc_ht=scontent.fhan2-5.fna&oh=00_AYDKST7PzXEzgcmdj9jJlNm87miRUXwbdnXHuShcOQrCZw&oe=66FEE02B" width="100%">
 <br />
 
 <!--
