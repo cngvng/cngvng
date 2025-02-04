@@ -1,29 +1,10 @@
 ### Hi there 👋, **I'm Tuan-Cuong Vuong (Computer Science)** 
 
-<br />
-<img src="https://media.licdn.com/dms/image/v2/D5603AQG5xEGwrr7lRw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726198894544?e=1736380800&v=beta&t=iORxGulzimxCvGFYikIf9SWry7OyYW13ZZE91L-UaOk" width="100%">
-<br />
-
-<!--
-**cngvng/cngvng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 
 ## About Me
 
 - **Overall ~2 years of experience in IT 🖥️.**
-- **Specialize in Research Assistant with 2+ years in [AIoT Lab](http://aiot.phenikaa-uni.edu.vn), where I am mentored by the esteemed [Dr. Luong Van Thien](https://tvluong.wordpress.com/).**
+- **Specialize in Research Assistant with 3+ years in [AIoT Lab](http://aiot.phenikaa-uni.edu.vn), where I am mentored by the esteemed [Dr. Luong Van Thien](https://tvluong.wordpress.com/).**
 - **I am one of the student members of the [APSIPA conference](http://www.apsipa.org).**
 - **I am currently pursuing a Bachelor’s degree in Computer Science with a specialization in Data Science and Artificial Intelligence program at [Phenikaa University](https://phenikaa-uni.edu.vn/en).**
 
