@@ -21,7 +21,7 @@
 <a href="https://scholar.google.com/citations?user=GJuxF5QAAAAJ">
   <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Google+Scholar&color=4285F4&logo=Google+Scholar&logoColor=FFFFFF&label=" alt="Google Scholar" /> 
 </a>
-<a href="mailto:cngvng123@gmail.com">
+<a href="mailto:cngvng.work@gmail.com">
   <img src="https://img.shields.io/badge/Email-cngvng123%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> 
 </a>
 <a href="https://cngvng.github.io">
@@ -44,7 +44,7 @@
 
 - 💬 Ask me about: `GenAI • RAG/GraphRAG • Multi-Agent LLMs • LangChain/LlamaIndex • vLLM • LoRA/PEFT • MLOps`
 
-- 📫 Reach me: <a href="mailto:cngvng123@gmail.com">cngvng123@gmail.com</a> — <a href="https://cngvng.github.io">Personal Page</a>  
+- 📫 Reach me: <a href="mailto:cngvng.work@gmail.com">cngvng123@gmail.com</a> — <a href="https://cngvng.github.io">Personal Page</a>  
 - 😄 Pronouns: He / Him  
 - ⚡ Fun fact: I enjoy turning research ideas into reliable, production-grade systems.
 
