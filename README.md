@@ -44,7 +44,7 @@
 
 - 💬 Ask me about: `GenAI • RAG/GraphRAG • Multi-Agent LLMs • LangChain/LlamaIndex • vLLM • LoRA/PEFT • MLOps`
 
-- 📫 Reach me: <a href="mailto:cngvng.work@gmail.com">cngvng123@gmail.com</a> — <a href="https://cngvng.github.io">Personal Page</a>  
+- 📫 Reach me: <a href="mailto:cngvng.work@gmail.com">cngvng.work@gmail.com</a> — <a href="https://cngvng.github.io">Personal Page</a>  
 - 😄 Pronouns: He / Him  
 - ⚡ Fun fact: I enjoy turning research ideas into reliable, production-grade systems.
 
