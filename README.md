@@ -1,12 +1,4 @@
-### Hi there 👋, **I'm Tuan-Cuong Vuong (AI Engineer & Researcher)**
-
-## About Me
-
-- **2+ years building GenAI/LLM systems**: agentic multi-agent workflows, RAG/GraphRAG, and custom LLM fine-tuning/serving.
-- **Research Assistant — AIoT Lab (Phenikaa University, 2021–Present)** under [Dr. Trang Xuan Mai](mailto:trang.maixuan@phenikaa-uni.edu.vn); **Business AI Lab (NEU, 2025–Present)** under [Dr. Luong Van Thien](https://tvluong.wordpress.com/).
-- **Core proposal team (Business AI Lab)**: co-authoring research proposals to secure funding and partnerships.
-- **Student member of [APSIPA](http://www.apsipa.org)**.
-- **B.Sc. in Computer Science (Data Science & AI)** — [Phenikaa University](https://phenikaa-uni.edu.vn/en) (2021–2025).
+### Hi there 👋, **I'm Tuan-Cuong Vuong (Researcher Assistant)**
 
 #### Let’s Connect
 <a href="https://www.linkedin.com/in/cng-vng/">
@@ -47,14 +39,6 @@
 - 📫 Reach me: <a href="mailto:cngvng.work@gmail.com">cngvng.work@gmail.com</a> — <a href="https://cngvng.github.io">Personal Page</a>  
 - 😄 Pronouns: He / Him  
 - ⚡ Fun fact: I enjoy turning research ideas into reliable, production-grade systems.
-
----
-
-## Selected Publications
-- **Task-Free Mixture of Agents for Multi-Document Summarization Leveraging LLMs and Knowledge Graphs** — *Neural Computing and Applications*, **submitted** (2025).  
-- **BERT-VBD: Vietnamese Multi-Document Summarization Framework** — *CITA 2024*.  
-- **Effective Intrusion Detection for UAV Communications…** — *ISNTA 2024* (accepted).  
-- **Machine learning-based intrusion detection: feature selection vs. feature extraction** — *Cluster Computing* (2023).
 
 ---
 
