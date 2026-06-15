@@ -35,18 +35,6 @@ I am always open to discussing:
 
 <br>
 
-<details>
-<summary><b>🛠️ Technical Arsenal (Click to Expand)</b></summary>
-<br>
-
-- **Languages:** Python, C++
-- **Deep Learning Frameworks:** PyTorch, TensorFlow, scikit-learn, Transformers (Hugging Face)
-- **LLM & Agent Ecosystems:** LangChain, LangGraph, LlamaIndex, OpenAI-Agents, n8n
-- **Retrieval & Databases:** Qdrant, FAISS, ChromaDB, Milvus, Neo4j (GraphRAG)
-- **Serving & Optimization:** vLLM, TensorRT, LoRA/PEFT, QLoRA/AWQ, FastAPI, Docker, PM2
-- **Cloud & DevOps:** AWS, GCP, GitHub Actions (CI/CD)
-</details>
-
 ---
 
 ### 📊 GitHub Analytics
