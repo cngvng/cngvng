@@ -22,37 +22,19 @@ I study how foundation and agentic models reason over **multimodal, temporal, an
 
 ### Research directions
 
-| Direction | The question I work on | Explore |
-| :--- | :--- | :--- |
-| **Agentic language reasoning** | How can specialized agents use structured knowledge to synthesize evidence across multiple sources? | [Research program](https://cngvng.github.io/projects/language-systems-multi-source-reasoning) |
-| **Structured multimodal healthcare** | Which clinical observations, relations, and external knowledge are relevant to a particular patient and task? | [Research program](https://cngvng.github.io/projects/structured-multimodal-healthcare) |
-| **Medical vision–language generation** | How can complementary imaging evidence be preserved and translated into clinically informative reports? | [Current work](https://cngvng.github.io/projects/structured-multimodal-healthcare#medical-generation) |
+| Research direction | Problem → approach |
+| :--- | :--- |
+| **[Agentic reasoning](https://cngvng.github.io/projects/language-systems-multi-source-reasoning)** | Evidence is distributed across documents → coordinate specialized agents with structured knowledge. |
+| **[Patient representations](https://cngvng.github.io/projects/structured-multimodal-healthcare#patient-modeling)** | Clinical evidence is heterogeneous and incomplete → preserve relations and select patient-relevant information. |
+| **[Medical report generation](https://cngvng.github.io/projects/structured-multimodal-healthcare#medical-generation)** | Complementary imaging evidence can be lost → study evidence-preserving fusion and report generation. |
 
 ### Selected research & code
 
-#### MoA-MDS · Knowledge-grounded multi-agent summarization
-
-**Neural Computing and Applications, 2026 · First author**
-
-A training-free framework that coordinates extraction, knowledge-graph reasoning, and abstraction for multi-document summarization across English and Vietnamese benchmarks.
-
-[Paper](https://doi.org/10.1007/s00521-026-12249-y) · [Preprint](https://arxiv.org/abs/2606.03867) · [Code](https://github.com/cngvng/MoA-MDS) · [Research context](https://cngvng.github.io/projects/language-systems-multi-source-reasoning)
-
-#### HERMES · Structured reasoning from clinical notes
-
-**Accepted at CITA 2026 · Co-author**
-
-Patient-specific knowledge graphs make relationships in clinical narratives explicit for patient outcome prediction.
-
-[Preprint](https://arxiv.org/abs/2609.20825) · [Code](https://github.com/cngvng/HERMES) · [Publication details](https://cngvng.github.io/publications#2025-hermes-submitted)
-
-#### BERT-VBD · Vietnamese multi-document summarization
-
-**CITA 2024 · First author**
-
-A hybrid approach that separates salient-content selection from abstractive generation for Vietnamese multi-document summarization.
-
-[Preprint](https://arxiv.org/abs/2409.12134) · [Code](https://github.com/cngvng/BERT-VBD)
+| Work & role | Method · paper · code |
+| :--- | :--- |
+| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y) · [Preprint](https://arxiv.org/abs/2606.03867) · [Code](https://github.com/cngvng/MoA-MDS) |
+| **HERMES**<br />Accepted at CITA 2026<br />**Co-author** | Patient-specific knowledge graphs make clinical relationships explicit for outcome prediction.<br />[Preprint](https://arxiv.org/abs/2609.20825) · [Code](https://github.com/cngvng/HERMES) |
+| **BERT-VBD**<br />CITA 2024<br />**First author** | Hybrid Vietnamese multi-document summarization: select salient evidence before abstractive generation.<br />[Preprint](https://arxiv.org/abs/2409.12134) · [Code](https://github.com/cngvng/BERT-VBD) |
 
 <details>
 <summary><b>Current studies · patient modeling & medical report generation</b></summary>
@@ -71,20 +53,31 @@ I work across **problem formulation, method implementation, experimental evaluat
 
 [Experience & background](https://cngvng.github.io/experience) · [Research notes](https://cngvng.github.io/blog)
 
+### Research & engineering activity
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/activity-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/activity-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg" />
+  <img src="assets/activity-light.svg" width="100%" alt="GitHub activity: total contributions, current and longest daily streaks, this year's contributions, and a compact 90-day contribution graph." />
+</picture>
+
+[Activity across projects](https://github.com/cngvng?tab=overview) · [Calendar data & commit/PR breakdown](assets/activity.json)
+
 <details>
-<summary><b>Languages across my projects</b></summary>
+<summary><b>Languages & my project organizations · compact overview</b></summary>
 
 <br />
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/languages-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/languages-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg" />
-  <img src="assets/languages-light.svg" width="100%" alt="Languages across my projects: public source code from my personal repositories and my project organizations cngvng-research, cngvng-papers, and cngvng-tech." />
+  <img src="assets/languages-light.svg" width="450" alt="Languages across my projects: public source code from my personal repositories and my project organizations cngvng-research, cngvng-papers, and cngvng-tech." />
 </picture>
 
-My projects live in my personal repositories and three organizations I own: [cngvng-research](https://github.com/cngvng-research), [cngvng-papers](https://github.com/cngvng-papers), and [cngvng-tech](https://github.com/cngvng-tech).
+**My project organizations:** [Research](https://github.com/cngvng-research) · [Papers](https://github.com/cngvng-papers) · [Tech](https://github.com/cngvng-tech)
 
-The chart summarizes public, non-fork source code in this scope. Private projects and website repositories are not included. Percentages represent source bytes, not time spent or proficiency. [Scope & data](assets/languages.json) · [How it updates](SETUP.md)
+Source bytes from public, non-fork projects; private code and websites excluded. [Scope & data](assets/languages.json) · [How it updates](SETUP.md)
 
 </details>
 

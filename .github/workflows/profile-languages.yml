@@ -1,4 +1,4 @@
-name: Update repository language overview
+name: Update profile activity and languages
 
 on:
   workflow_dispatch:
@@ -9,6 +9,7 @@ on:
     paths:
       - profile.config.json
       - scripts/update-languages.mjs
+      - scripts/update-activity.mjs
       - .github/workflows/profile-languages.yml
 
 permissions:
@@ -33,13 +34,17 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: node scripts/update-languages.mjs
-      - name: Commit refreshed data only when changed
+      - name: Fetch contribution calendar and render compact activity cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/update-activity.mjs
+      - name: Commit refreshed profile data only when changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/languages.json assets/languages-*.svg
+          git add assets/languages.json assets/languages-*.svg assets/activity.json assets/activity-*.svg
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh repository language overview'
+            git commit -m 'chore: refresh profile activity and languages'
             git pull --rebase origin main
             git push
           fi

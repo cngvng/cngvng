@@ -1,15 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="216" viewBox="0 0 450 216" role="img" aria-labelledby="title desc">
 <title id="title">Languages across my projects</title><desc id="desc">Public source-code languages across cngvng's personal repositories and own project organizations: cngvng-research, cngvng-papers, cngvng-tech.</desc>
-<rect x=".5" y=".5" width="899" height="339" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x=".5" y=".5" width="449" height="215" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="32" y="36" fill="#475569" font-size="11" letter-spacing="1.6">REPOSITORY LANGUAGES / PUBLIC RESEARCH &amp; SOFTWARE</text>
-<path d="M450 66V285" stroke="#cbd5e1"/>
-<text x="32" y="84" fill="#0f172a" font-size="19" font-weight="650">Languages across my projects</text><text x="32" y="110" fill="#475569" font-size="12">8 repositories · public source code</text><rect x="32" y="131" width="372.2896499157964" height="8" fill="#60a5fa"/><rect x="404.2896499157964" y="131" width="7.336558418037585" height="8" fill="#2dd4bf"/><rect x="411.62620833383403" y="131" width="0.373791666165966" height="8" fill="#f59e0b"/><circle cx="36" cy="164" r="4" fill="#60a5fa"/><text x="48" y="168" fill="#0f172a" font-size="12">Python</text><text x="213" y="168" text-anchor="end" fill="#475569" font-size="12">98.0%</text><circle cx="236" cy="164" r="4" fill="#2dd4bf"/><text x="248" y="168" fill="#0f172a" font-size="12">Shell</text><text x="413" y="168" text-anchor="end" fill="#475569" font-size="12">1.9%</text><circle cx="36" cy="197" r="4" fill="#f59e0b"/><text x="48" y="201" fill="#0f172a" font-size="12">Jupyter Notebook</text><text x="213" y="201" text-anchor="end" fill="#475569" font-size="12">&lt;0.1%</text>
-<g transform="translate(0,0)">
-<text x="482" y="84" fill="#0f172a" font-size="19" font-weight="650">My project organizations</text>
-<text x="482" y="110" fill="#475569" font-size="12">Research · scientific papers · engineering</text>
-<circle cx="486" cy="151" r="4" fill="#60a5fa"/><text x="500" y="156" fill="#0f172a" font-size="15">cngvng-research</text><circle cx="486" cy="186" r="4" fill="#a78bfa"/><text x="500" y="191" fill="#0f172a" font-size="15">cngvng-papers</text><circle cx="486" cy="221" r="4" fill="#2dd4bf"/><text x="500" y="226" fill="#0f172a" font-size="15">cngvng-tech</text>
-</g>
-<text x="32" y="316" fill="#475569" font-size="11">Source bytes · public non-forks · private projects and website repos excluded</text>
-<text x="868" y="316" text-anchor="end" fill="#475569" font-size="11">2026-10-23 UTC</text>
+<g transform="translate(0,-48)"><text x="32" y="84" fill="#0f172a" font-size="19" font-weight="650">Languages across my projects</text><text x="32" y="110" fill="#475569" font-size="12">8 repositories · public source code</text><rect x="32" y="131" width="372.2896499157964" height="8" fill="#60a5fa"/><rect x="404.2896499157964" y="131" width="7.336558418037585" height="8" fill="#2dd4bf"/><rect x="411.62620833383403" y="131" width="0.373791666165966" height="8" fill="#f59e0b"/><circle cx="36" cy="164" r="4" fill="#60a5fa"/><text x="48" y="168" fill="#0f172a" font-size="12">Python</text><text x="213" y="168" text-anchor="end" fill="#475569" font-size="12">98.0%</text><circle cx="236" cy="164" r="4" fill="#2dd4bf"/><text x="248" y="168" fill="#0f172a" font-size="12">Shell</text><text x="413" y="168" text-anchor="end" fill="#475569" font-size="12">1.9%</text><circle cx="36" cy="197" r="4" fill="#f59e0b"/><text x="48" y="201" fill="#0f172a" font-size="12">Jupyter Notebook</text><text x="213" y="201" text-anchor="end" fill="#475569" font-size="12">&lt;0.1%</text></g>
+<text x="32" y="200" fill="#475569" font-size="10">Source bytes · non-forks · websites excluded</text>
+<text x="418" y="200" text-anchor="end" fill="#475569" font-size="10">2026-10-23 UTC</text>
 </g></svg>
