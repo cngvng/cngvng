@@ -72,17 +72,19 @@ I work across **problem formulation, method implementation, experimental evaluat
 [Experience & background](https://cngvng.github.io/experience) · [Research notes](https://cngvng.github.io/blog)
 
 <details>
-<summary><b>Repository language overview · personal + administered organizations</b></summary>
+<summary><b>Languages across my projects</b></summary>
 
 <br />
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/languages-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/languages-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg" />
-  <img src="assets/languages-light.svg" width="100%" alt="Language distribution of public research and software repositories owned by cngvng or in the configured administered organizations; measured by source bytes, not personal contribution or proficiency." />
+  <img src="assets/languages-light.svg" width="100%" alt="Languages across my projects: public source code from my personal repositories and my project organizations cngvng-research, cngvng-papers, and cngvng-tech." />
 </picture>
 
-This is a repository-level overview, **not a measure of individual authorship, time spent, or proficiency**. It includes public non-fork repositories from my account and the configured organizations I administer. Website repositories are excluded; no programming language is hidden. [Scope & data](assets/languages.json) · [How it updates](SETUP.md)
+My projects live in my personal repositories and three organizations I own: [cngvng-research](https://github.com/cngvng-research), [cngvng-papers](https://github.com/cngvng-papers), and [cngvng-tech](https://github.com/cngvng-tech).
+
+The chart summarizes public, non-fork source code in this scope. Private projects and website repositories are not included. Percentages represent source bytes, not time spent or proficiency. [Scope & data](assets/languages.json) · [How it updates](SETUP.md)
 
 </details>
 

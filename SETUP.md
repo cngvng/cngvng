@@ -45,14 +45,17 @@ git push
 
 ## 4. Organization nào được tính?
 
-Hai nhóm tách riêng:
+Biểu đồ **Languages across my projects** gộp source code từ repo cá nhân và đúng ba organization dự án do bạn sở hữu:
 
-1. **Personal repositories**: repo public, non-fork do `cngvng` sở hữu.
-2. **Administered organizations**: repo public, non-fork trong organization đã cấu hình. Membership API ngày 2026-10-23 xác nhận quyền admin tại: cngvng-tech, Phenikaa-University, PSM-Solution, cngvng-research, AION-community, Business-AI-Lab, cngvng-courses, DataWise-Edu, cngvng-papers.
+- [cngvng-research](https://github.com/cngvng-research)
+- [cngvng-papers](https://github.com/cngvng-papers)
+- [cngvng-tech](https://github.com/cngvng-tech)
 
-Organization chưa có repo public vẫn được cấu hình; repo public mới sẽ được lấy ở lần refresh sau. Không gán toàn bộ code của lab/organization thành contribution của cá nhân. Muốn chỉ thể hiện dự án bạn trực tiếp viết, thu hẹp scope hoặc bổ sung quy tắc chọn repo.
+Khối **My project organizations** thể hiện hệ sinh thái dự án của bạn, không phải chức vụ quản trị hay thống kê của team/lab khác. Các organization khác đã bị bỏ khỏi cấu hình và dữ liệu được tạo lại, không chỉ ẩn khỏi hình.
 
-Sửa `organizations` khi thêm/bỏ organization hoặc khi quyền quản trị thay đổi. Token mặc định không có quyền xác minh membership của bạn nên job không tự phát hiện thay đổi vai trò admin.
+Chỉ repo public, non-fork được tính. Khi kiểm tra ngày 2026-10-23, ba organization này chưa có repo public non-fork đủ điều kiện; phần ngôn ngữ hiện đến từ repo cá nhân. Organization vẫn được cấu hình và repo public mới sẽ tự được bổ sung ở lần refresh sau. Không đổi notebook thành Python hoặc tự cộng private code vào tỷ lệ.
+
+JSON giữ breakdown cá nhân/organization để kiểm tra; biểu đồ hiển thị tổng đã gộp. Muốn thay phạm vi, sửa `organizations` rồi chạy lại workflow.
 
 ## 5. Vì sao không còn card HTML 99%?
 

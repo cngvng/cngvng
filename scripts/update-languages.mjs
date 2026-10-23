@@ -129,16 +129,33 @@ function render(data, theme, mobile = false) {
   const muted = theme === 'dark' ? '#94a3b8' : '#475569';
   const width = mobile ? 450 : 900;
   const height = mobile ? 620 : 340;
+  const combined = { repositoryCount: 0, languages: {} };
+  for (const group of Object.values(data.groups)) {
+    combined.repositoryCount += group.repositoryCount;
+    for (const [name, bytes] of Object.entries(group.languages)) {
+      combined.languages[name] = (combined.languages[name] ?? 0) + bytes;
+    }
+  }
+  combined.languages = Object.fromEntries(Object.entries(combined.languages).sort((a, b) => b[1] - a[1]));
+  const orgX = mobile ? 32 : 482;
+  const ink = theme === 'dark' ? '#e2e8f0' : '#0f172a';
+  const orgColors = ['#60a5fa', '#a78bfa', '#2dd4bf'];
+  const orgList = data.scope.organizations.map((name, i) =>
+    `<circle cx="${orgX + 4}" cy="${151 + i * 35}" r="4" fill="${orgColors[i % orgColors.length]}"/><text x="${orgX + 18}" y="${156 + i * 35}" fill="${ink}" font-size="15">${xml(name)}</text>`
+  ).join('');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
-<title id="title">Repository language overview</title><desc id="desc">Personal repositories and administered organization repositories shown separately. Source bytes, not personal contributions or proficiency.</desc>
+<title id="title">Languages across my projects</title><desc id="desc">Public source-code languages across cngvng's personal repositories and own project organizations: ${xml(data.scope.organizations.join(', '))}.</desc>
 <rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="16" fill="${bg}" stroke="${stroke}"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <text x="32" y="36" fill="${muted}" font-size="11" letter-spacing="${mobile ? 0.3 : 1.6}">REPOSITORY LANGUAGES / ${data.scope.includePrivate ? 'PUBLIC + OPTED-IN PRIVATE' : 'PUBLIC RESEARCH &amp; SOFTWARE'}</text>
 <path d="${mobile ? 'M32 294H418' : 'M450 66V285'}" stroke="${stroke}"/>
-${panel(data.groups.personal, 32, 'Personal repositories', 'owned by cngvng', theme)}
-<g transform="translate(0,${mobile ? 260 : 0})">${panel(data.groups.organizations, mobile ? 32 : 482, 'Administered organizations', 'shared codebases', theme)}</g>
-<text x="32" y="${mobile ? 574 : 316}" fill="${muted}" font-size="11">${mobile ? 'Source bytes · non-forks · website repos excluded' : 'Source bytes · non-forks · website repos excluded · not an authorship or proficiency score'}</text>
-${mobile ? `<text x="32" y="594" fill="${muted}" font-size="11">Not an authorship or proficiency score</text>` : ''}
+${panel(combined, 32, 'Languages across my projects', 'public source code', theme)}
+<g transform="translate(0,${mobile ? 260 : 0})">
+<text x="${orgX}" y="84" fill="${ink}" font-size="19" font-weight="650">My project organizations</text>
+<text x="${orgX}" y="110" fill="${muted}" font-size="12">Research · scientific papers · engineering</text>
+${orgList}
+</g>
+<text x="32" y="${mobile ? 574 : 316}" fill="${muted}" font-size="11">Source bytes · public non-forks · private projects and website repos excluded</text>
 <text x="${width - 32}" y="${mobile ? 594 : 316}" text-anchor="end" fill="${muted}" font-size="11">${data.updated} UTC</text>
 </g></svg>\n`;
 }
