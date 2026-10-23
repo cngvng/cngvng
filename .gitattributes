@@ -1,0 +1,3 @@
+# Cards are generated from GitHub's language API, not application source.
+assets/languages-*.svg linguist-generated=true
+assets/languages.json linguist-generated=true

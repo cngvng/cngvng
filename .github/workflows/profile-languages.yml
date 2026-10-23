@@ -1,0 +1,45 @@
+name: Update repository language overview
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - profile.config.json
+      - scripts/update-languages.mjs
+      - .github/workflows/profile-languages.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-languages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch public repository languages and render cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: node scripts/update-languages.mjs
+      - name: Commit refreshed data only when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/languages.json assets/languages-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh repository language overview'
+            git pull --rebase origin main
+            git push
+          fi

@@ -1,0 +1,196 @@
+{
+  "updated": "2026-10-23",
+  "metric": "GitHub Linguist source bytes on default branches; not personal authorship or proficiency",
+  "scope": {
+    "username": "cngvng",
+    "organizations": [
+      "cngvng-tech",
+      "Phenikaa-University",
+      "PSM-Solution",
+      "cngvng-research",
+      "AION-community",
+      "Business-AI-Lab",
+      "cngvng-courses",
+      "DataWise-Edu",
+      "cngvng-papers"
+    ],
+    "includePrivate": false,
+    "excludeForks": true,
+    "excludeRepositories": [
+      "cngvng/cngvng",
+      "cngvng/cngvng.github.io",
+      "Phenikaa-University/advisor.github.io",
+      "Business-AI-Lab/business-ai-lab.github.io"
+    ]
+  },
+  "groups": {
+    "personal": {
+      "repositoryCount": 8,
+      "repositoriesWithDetectedLanguages": 7,
+      "languages": {
+        "Python": 1141395,
+        "Shell": 22493,
+        "Jupyter Notebook": 1146
+      }
+    },
+    "organizations": {
+      "repositoryCount": 10,
+      "repositoriesWithDetectedLanguages": 8,
+      "languages": {
+        "Jupyter Notebook": 8318908,
+        "Python": 663485,
+        "HTML": 4120,
+        "Shell": 78
+      }
+    }
+  },
+  "repositories": [
+    {
+      "repository": "Business-AI-Lab/documents",
+      "private": false,
+      "group": "organizations",
+      "languages": {}
+    },
+    {
+      "repository": "Business-AI-Lab/MSP-ADF",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Python": 237260
+      }
+    },
+    {
+      "repository": "cngvng-courses/data-sciences-beginner",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Jupyter Notebook": 3926873,
+        "Python": 119947
+      }
+    },
+    {
+      "repository": "cngvng/abc-algorithms-features",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 12810,
+        "Jupyter Notebook": 761
+      }
+    },
+    {
+      "repository": "cngvng/AION",
+      "private": false,
+      "group": "personal",
+      "languages": {}
+    },
+    {
+      "repository": "cngvng/BERT-VBD",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 17989
+      }
+    },
+    {
+      "repository": "cngvng/HERMES",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 738463,
+        "Shell": 11094
+      }
+    },
+    {
+      "repository": "cngvng/MoA-MDS",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 263606,
+        "Shell": 11399
+      }
+    },
+    {
+      "repository": "cngvng/PLS-numerical-method",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 33209,
+        "Jupyter Notebook": 385
+      }
+    },
+    {
+      "repository": "cngvng/UAV-IDS",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 59456
+      }
+    },
+    {
+      "repository": "cngvng/web-crawl-example",
+      "private": false,
+      "group": "personal",
+      "languages": {
+        "Python": 15862
+      }
+    },
+    {
+      "repository": "Phenikaa-University/.github",
+      "private": false,
+      "group": "organizations",
+      "languages": {}
+    },
+    {
+      "repository": "Phenikaa-University/AI-dev",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Jupyter Notebook": 4218612
+      }
+    },
+    {
+      "repository": "Phenikaa-University/big-data",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Python": 54875
+      }
+    },
+    {
+      "repository": "Phenikaa-University/cloud-computing-midterm",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Python": 28101
+      }
+    },
+    {
+      "repository": "Phenikaa-University/cv-finalterm",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Python": 51608,
+        "HTML": 4120,
+        "Shell": 78
+      }
+    },
+    {
+      "repository": "Phenikaa-University/python-for-beginner",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Jupyter Notebook": 173423,
+        "Python": 52692
+      }
+    },
+    {
+      "repository": "Phenikaa-University/SE-Virtual-try-on",
+      "private": false,
+      "group": "organizations",
+      "languages": {
+        "Python": 119002
+      }
+    }
+  ],
+  "privateRepositoryCount": 0
+}

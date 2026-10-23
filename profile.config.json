@@ -1,0 +1,23 @@
+{
+  "username": "cngvng",
+  "organizations": [
+    "cngvng-tech",
+    "Phenikaa-University",
+    "PSM-Solution",
+    "cngvng-research",
+    "AION-community",
+    "Business-AI-Lab",
+    "cngvng-courses",
+    "DataWise-Edu",
+    "cngvng-papers"
+  ],
+  "includePrivate": false,
+  "excludeForks": true,
+  "excludeRepositories": [
+    "cngvng/cngvng",
+    "cngvng/cngvng.github.io",
+    "Phenikaa-University/advisor.github.io",
+    "Business-AI-Lab/business-ai-lab.github.io"
+  ],
+  "maxLanguages": 6
+}
