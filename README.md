@@ -32,9 +32,7 @@ I study how foundation and agentic models reason over **multimodal, temporal, an
 
 | Work & role | Method · paper · code |
 | :--- | :--- |
-| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y) · [Preprint](https://arxiv.org/abs/2606.03867) · [Code](https://github.com/cngvng/MoA-MDS) |
-| **HERMES**<br />Accepted at CITA 2026<br />**Co-author** | Patient-specific knowledge graphs make clinical relationships explicit for outcome prediction.<br />[Preprint](https://arxiv.org/abs/2609.20825) · [Code](https://github.com/cngvng/HERMES) |
-| **BERT-VBD**<br />CITA 2024<br />**First author** | Hybrid Vietnamese multi-document summarization: select salient evidence before abstractive generation.<br />[Preprint](https://arxiv.org/abs/2409.12134) · [Code](https://github.com/cngvng/BERT-VBD) |
+| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y|
 
 <details>
 <summary><b>Current studies · patient modeling & medical report generation</b></summary>
@@ -77,7 +75,7 @@ I work across **problem formulation, method implementation, experimental evaluat
 
 **My project organizations:** [Research](https://github.com/cngvng-research) · [Papers](https://github.com/cngvng-papers) · [Tech](https://github.com/cngvng-tech)
 
-Source bytes from public, non-fork projects; private code and websites excluded. [Scope & data](assets/languages.json) · [How it updates](SETUP.md)
+[Scope & data](assets/languages.json) · [How it updates](SETUP.md)
 
 </details>
 
