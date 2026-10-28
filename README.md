@@ -2,7 +2,7 @@
   <img src="assets/research-header.svg" width="100%" alt="Tuan-Cuong Vuong — Research Engineer at VNPT AI and Research Assistant at Phenikaa University. Foundation models, agentic systems, and multimodal reasoning." />
 </a>
 
-<p align="center">
+<p align="center", style="width: 250px; height: auto;">
   <a href="https://cngvng.github.io"><img src="https://img.shields.io/badge/Portfolio-1D4ED8?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Research portfolio" /></a>
   <a href="https://scholar.google.com/citations?user=GJuxF5QAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar" /></a>
   <a href="https://orcid.org/0000-0002-0999-1950"><img src="https://img.shields.io/badge/ORCID-4D7C0F?style=flat-square&amp;logo=orcid&amp;logoColor=white" alt="ORCID" /></a>
