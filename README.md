@@ -32,9 +32,7 @@ I study how foundation and agentic models reason over **multimodal, temporal, an
 
 | Work & role | Method · paper · code |
 | :--- | :--- |
-| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y
-        
-        ) |
+| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y) - [Code](https://github.com/cngvng/MoA-MDS) |
         
         
         
