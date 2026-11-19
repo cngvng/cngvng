@@ -28,34 +28,7 @@ I study how foundation and agentic models reason over **multimodal, temporal, an
 | **[Patient representations](https://cngvng.github.io/projects/structured-multimodal-healthcare#patient-modeling)** | Clinical evidence is heterogeneous and incomplete → preserve relations and select patient-relevant information. |
 | **[Medical report generation](https://cngvng.github.io/projects/structured-multimodal-healthcare#medical-generation)** | Complementary imaging evidence can be lost → study evidence-preserving fusion and report generation. |
 
-### Selected research & code
-
-| Work & role | Method · paper · code |
-| :--- | :--- |
-| **MoA-MDS**<br />Neural Computing and Applications, 2026<br />**First author** | Training-free coordination of extraction, knowledge-graph reasoning, and abstraction; evaluated on English and Vietnamese summarization benchmarks.<br />[Paper](https://doi.org/10.1007/s00521-026-12249-y) - [Code](https://github.com/cngvng/MoA-MDS) |
-        
-        
-        
-        
-
-<details>
-<summary><b>Current studies · patient modeling & medical report generation</b></summary>
-
-My ongoing work investigates multi-component patient representations, patient-context-informed knowledge selection, cross-view MRI fusion, and multi-hypothesis 3D CT report generation. These are presented as **current studies / preprints**, separately from published and accepted work.
-
-[Patient modeling & clinical reasoning](https://cngvng.github.io/projects/structured-multimodal-healthcare#patient-modeling) · [Medical vision–language generation](https://cngvng.github.io/projects/structured-multimodal-healthcare#medical-generation)
-
-</details>
-
-### From methods to working systems
-
-I work across **problem formulation, method implementation, experimental evaluation, and research communication**. My engineering experience includes multi-agent RAG, clinical-data pipelines, and self-hosted model serving—connecting research questions to systems that can be evaluated and improved.
-
-**Core toolkit:** Python · PyTorch · Transformers · Knowledge graphs · Retrieval & agent orchestration · SQL · LaTeX
-
-[Experience & background](https://cngvng.github.io/experience) · [Research notes](https://cngvng.github.io/blog)
-
-### Research & engineering activity
+### Research activity
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/activity-mobile-dark.svg" />
