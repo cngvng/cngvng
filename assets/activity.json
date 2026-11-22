@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "timezone": "UTC",
   "username": "cngvng",
   "source": "GitHub contribution calendar; counts follow profile visibility, including restricted aggregate contributions returned by GitHub. Not a count of commits alone.",
   "lifetime": {
     "contributions": 7906,
-    "currentStreakDays": 120,
+    "currentStreakDays": 0,
     "longestStreakDays": 120
   },
   "yearToDate": {
@@ -44,10 +44,6 @@
     }
   ],
   "recentDays": [
-    {
-      "date": "2026-08-24",
-      "count": 17
-    },
     {
       "date": "2026-08-25",
       "count": 36
@@ -402,6 +398,10 @@
     },
     {
       "date": "2026-11-21",
+      "count": 0
+    },
+    {
+      "date": "2026-11-22",
       "count": 0
     }
   ]
