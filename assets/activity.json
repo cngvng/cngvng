@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "timezone": "UTC",
   "username": "cngvng",
   "source": "GitHub contribution calendar; counts follow profile visibility, including restricted aggregate contributions returned by GitHub. Not a count of commits alone.",
   "lifetime": {
-    "contributions": 7988,
-    "currentStreakDays": 123,
-    "longestStreakDays": 123
+    "contributions": 8098,
+    "currentStreakDays": 124,
+    "longestStreakDays": 124
   },
   "yearToDate": {
     "year": 2026,
-    "contributions": 6157,
-    "commitContributions": 24,
+    "contributions": 6267,
+    "commitContributions": 26,
     "pullRequestContributions": 0,
     "issueContributions": 2,
     "reviewContributions": 0,
-    "restrictedContributions": 6126
+    "restrictedContributions": 6234
   },
   "annualCalendars": [
     {
@@ -40,14 +40,10 @@
     },
     {
       "year": 2026,
-      "contributions": 6157
+      "contributions": 6267
     }
   ],
   "recentDays": [
-    {
-      "date": "2026-08-26",
-      "count": 18
-    },
     {
       "date": "2026-08-27",
       "count": 12
@@ -394,7 +390,7 @@
     },
     {
       "date": "2026-11-21",
-      "count": 11
+      "count": 18
     },
     {
       "date": "2026-11-22",
@@ -402,7 +398,11 @@
     },
     {
       "date": "2026-11-23",
-      "count": 35
+      "count": 94
+    },
+    {
+      "date": "2026-11-24",
+      "count": 44
     }
   ]
 }
